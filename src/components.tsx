@@ -1,14 +1,14 @@
+
 // src/components.tsx
 import PromptEditor from './components/PromptEditor';
 import ModelDropdown from './components/ModelDropdown';
-import FileUploader from './components/FileUploader';
 import ChatUI from './components/ChatUI';
 import { useState, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
-import { Upload, FileText, File } from 'lucide-react';
+import { Upload, File } from 'lucide-react';
 
 export { PromptEditor, ModelDropdown, ChatUI };
 
